@@ -1,12 +1,10 @@
 import pandas as pd
-import openai
 import logging
 from tqdm.notebook import tqdm
 from dataclasses import dataclass
-from typing import Dict, List, Any, Optional, Tuple, Callable
+from typing import Dict, List, Optional, Tuple, Callable
 import json
 import re
-import os
 import time
 
 logging.basicConfig(level=logging.INFO)
